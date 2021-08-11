@@ -1,0 +1,32 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+#quiz-box{
+    margin-top: 100px;
+    border: 0px solid black;
+    border-radius: 20px;
+    width:320px;
+    background-color: white;
+    padding:10px 22px;
+}
+ul{
+    list-style: none;
+}
+ul li input label{
+    cursor:pointer;
+}
+.btn{
+    width: 100%;
+    color: white;
+    background-color: teal;
+    border: none;
+    padding: 1rem;
+}
+.btn:hover{
+    background-color: rgb(6, 66, 66);
+    cursor: pointer;
+}
